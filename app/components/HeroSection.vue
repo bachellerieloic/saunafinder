@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+  <div id="featured" class="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
     <!-- Background -->
     <div class="absolute inset-0 bg-om-green">
       <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1515362778563-6a8d0e44bc0b?q=80&w=2669&auto=format&fit=crop')] bg-cover bg-center opacity-50 mix-blend-overlay"></div>
@@ -12,13 +12,13 @@
     <!-- Content -->
     <div class="relative z-10 text-center max-w-4xl px-4 sm:px-6 lg:px-8 space-y-10">
       <span class="block text-om-gold text-xs md:text-sm tracking-[0.3em] uppercase animate-fade-in-up font-light">
-        Discover the Art of Steam
+        In Pursuit of the Perfect Steam
       </span>
       <h1 class="font-serif text-5xl md:text-7xl lg:text-9xl text-om-cream leading-[0.9] animate-fade-in-up delay-200">
-        Sanctuary of <br> <span class="italic text-om-gold-light font-light pr-4">Silence</span>
+        The Ritual of <br> <span class="italic text-om-gold-light font-light pr-4">Heat</span>
       </h1>
       <p class="text-om-cream/70 text-base md:text-lg font-light tracking-wide max-w-xl mx-auto animate-fade-in-up delay-400 leading-relaxed">
-        Curating the world's finest sauna experiences for the distinguished traveler.
+        A curated atlas of the world's most authentic smoke, wood-fired, and wilderness saunas. Join the waitlist for private access.
       </p>
       
       <div class="pt-10 animate-fade-in-up delay-600">

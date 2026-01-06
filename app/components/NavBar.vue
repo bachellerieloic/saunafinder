@@ -1,10 +1,10 @@
 <template>
   <nav 
-    class="fixed w-full z-50 transition-all duration-700 ease-out border-b"
+    class="fixed left-0 right-0 z-50 transition-all duration-700 ease-out border-b"
     :class="[
       isScrolled 
-        ? 'bg-om-cream/95 backdrop-blur-md border-om-green/5 py-4' 
-        : 'bg-transparent border-transparent py-8'
+        ? 'top-0 bg-om-cream/95 backdrop-blur-md border-om-green/5 py-4 shadow-sm' 
+        : 'top-10 bg-transparent border-transparent py-6'
     ]"
   >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -16,6 +16,10 @@
   --image-paper-texture: url('https://www.transparenttextures.com/patterns/cream-paper.png');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-om-cream);
   color: var(--color-om-green);
