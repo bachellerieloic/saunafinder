@@ -2,7 +2,7 @@
   <div id="featured" class="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
     <!-- Background -->
     <div class="absolute inset-0 bg-om-green">
-      <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1515362778563-6a8d0e44bc0b?q=80&w=2669&auto=format&fit=crop')] bg-cover bg-center opacity-50 mix-blend-overlay"></div>
+      <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1712659604528-b179a3634560?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center opacity-60 mix-blend-overlay"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-om-green/90 via-transparent to-om-green/20"></div>
     </div>
 
@@ -23,7 +23,7 @@
       
       <div class="pt-10 animate-fade-in-up delay-600">
         <a href="#waitlist" class="inline-block px-10 py-4 border border-om-gold/50 text-om-gold hover:bg-om-gold hover:text-om-green transition-all duration-700 uppercase tracking-[0.2em] text-xs">
-          Request Access
+          Join Waitlist
         </a>
       </div>
     </div>

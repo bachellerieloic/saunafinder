@@ -177,7 +177,7 @@ onMounted(async () => {
             <h3 style="margin: 0; font-size: 20px; font-family: 'Playfair Display', serif; color: #15261D; margin-bottom: 6px;">${s.title}</h3>
             <p style="margin: 0; font-size: 13px; font-weight: 300; color: rgba(21, 38, 29, 0.6); margin-bottom: 20px;">${s.location}</p>
             <a href="#waitlist" style="display: block; width: 100%; border: 1px solid #15261D; background: transparent; color: #15261D; padding: 10px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.2em; text-align: center; text-decoration: none; transition: all 0.3s;">
-              Request Private Booking
+              Join Waitlist
             </a>
           </div>
         `
