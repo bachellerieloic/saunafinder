@@ -5,7 +5,7 @@
       :class="[
         isScrolled || isMobileMenuOpen
           ? 'top-0 bg-om-cream/90 backdrop-blur-lg border-om-green/5 py-3' 
-          : 'top-8 bg-transparent border-transparent py-5'
+          : 'top-2 md:top-8 bg-transparent border-transparent py-5'
       ]"
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-12">
@@ -26,10 +26,10 @@
             class="md:hidden hover:text-om-gold transition-all duration-500 p-1 z-50" 
             :class="[ isScrolled || isMobileMenuOpen ? 'text-om-green' : 'text-om-cream' ]"
           >
-            <div class="w-5 h-4 flex flex-col justify-between items-center relative overflow-hidden">
-              <span class="w-full h-[1px] bg-current transition-all duration-500" :style="isMobileMenuOpen ? 'transform: translateY(7px) rotate(45deg)' : ''"></span>
-              <span class="w-full h-[1px] bg-current transition-all duration-500" :style="isMobileMenuOpen ? 'transform: translateX(100%)' : ''"></span>
-              <span class="w-full h-[1px] bg-current transition-all duration-500" :style="isMobileMenuOpen ? 'transform: translateY(-7px) rotate(-45deg)' : ''"></span>
+            <div class="w-5 h-2.5 flex flex-col justify-between items-center">
+              <span class="w-full h-[0.5px] bg-current transition-all duration-500" :style="isMobileMenuOpen ? 'transform: translateY(4.5px) rotate(45deg)' : ''"></span>
+              <span class="w-full h-[0.5px] bg-current transition-all duration-500" :style="isMobileMenuOpen ? 'opacity: 0' : ''"></span>
+              <span class="w-full h-[0.5px] bg-current transition-all duration-500" :style="isMobileMenuOpen ? 'transform: translateY(-4.5px) rotate(-45deg)' : ''"></span>
             </div>
           </button>
         </div>
